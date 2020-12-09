@@ -1,3 +1,13 @@
+
+// UC1 check if the employee is present or not
+const IS_ABSENT = 0;
+let empCheck = Math.floor(Math.random() * 10) % 2;
+if (empCheck == IS_ABSENT) {
+    console.log("Employee is absent");
+} else {
+    console.log("employee is present");
+}
+
 // UC2 Added full time and part time employee wage
 const IS_FULL_TIME = 1;
 const IS_PART_TIME = 2;
@@ -18,3 +28,4 @@ switch (empCheck) {
 }
 let empWage = empHrs * WAGE_PER_HR;
 console.log("Emp wage:" + empWage);
+
